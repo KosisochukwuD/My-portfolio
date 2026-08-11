@@ -1,72 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Home</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome for Social & Button Icons -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Navigation Bar -->
-  <header class="navbar">
-    <div class="nav-container">
-      <a href="#" class="logo">KO</a>
-      <nav class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#about" class="active">About Me</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
-      </nav>
-      <a href="#contact" class="btn-contact">Contact Me</a>
+    <!-- ================= HERO SECTION ================= -->
+<section class="hero-section" id="hero">
+  <div class="hero-container">
+    
+    <div class="hero-image">
+      <img src="your-image.png" alt="kodeKosi Photo">
     </div>
-  </header>
 
-  <!-- Hero / About Section -->
-  <section class="hero-section" id='hero'>
-    <div class="hero-container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Hi, my name is <br>
+        <span class="name">kodeKosi</span>
+      </h1>
       
-      <!-- Profile Image -->
-      <div class="hero-image">
-        <img src="gemnipic.png" alt="Profile Photo">
-      </div>
+      <h2 class="hero-subtitle">
+        I'm a <span class="typing-text">Front-End Developer</span><span class="cursor">_</span>
+      </h2>
 
-      <!-- Profile Info -->
-      <div class="hero-content">
-        <h1 class="hero-title">
-          Hi, my name is <br>
-          <span class="name">Divine Okechukwu kosisochukwu</span>
-        </h1>
-        
-        <h2 class="hero-subtitle">
-          I'm a <span class="typing-text">frontend web developer</span><span class="cursor">_</span>
-        </h2>
+      <p class="hero-description">
+        Passionate Web Developer, UI/UX Designer, and Digital Marketer. I build modern, responsive web apps, high-converting digital storefronts, and intuitive user experiences.
+      </p>
 
-        <p class="hero-description">
-         Specialized in building high-performing web applications, interactive interfaces, and conversion-focused digital platforms. Passionate
-          about web vitals, user engagement, and creating end-to-end digital experiences that deliver results.
-        </p>
-
-        <!-- Social Icons & Resume Button -->
-        <div class="hero-actions">
-          <div class="social-icons">
-            <a href="https://github.com/KosisochukwuD" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a href="" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://x.com/kodekodeccak" aria-label="X (Twitter)"><i class="fa-brands fa-twitter"></i></a>
-          </div>
-          
-          <a href="#" class="btn-resume">
-            <i class="fa-solid fa-download"></i> View Resume
-          </a>
+      <div class="hero-actions">
+        <div class="social-icons">
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
+        
+        <a href="#" class="btn-resume">
+          <i class="fa-solid fa-download"></i> View Resume
+        </a>
       </div>
-
     </div>
-  </section>
-  <!-- ================= EXPERIENCE TIMELINE SECTION ================= -->
+
+  </div>
+</section>
+
+
+<!-- ================= EXPERIENCE TIMELINE SECTION ================= -->
 <section class="experience-section" id="experience">
   <div class="experience-container">
     
@@ -105,7 +87,7 @@
       <div class="timeline-item left">
         <div class="timeline-content">
           <h3>Career Development Trainee</h3>
-          <h4>dev Career Virtual Training</h4>
+          <h4>Feb Career Virtual Training</h4>
           <p>Participated in an intensive 1-month career preparation training, developing professional workflows, digital communication, and career strategy skills.</p>
         </div>
         <div class="timeline-icon">
@@ -144,6 +126,7 @@
   </div>
 </section>
 
+
 <!-- ================= PORTFOLIO SECTION ================= -->
 <section class="portfolio-section" id="portfolio">
   <div class="portfolio-header">
@@ -154,80 +137,45 @@
   <div class="portfolio-wrapper">
     <div class="portfolio-grid">
 
-      <!-- Card 1: Shelter -->
+      <!-- Card 1: KodeSales -->
       <div class="portfolio-card">
         <div class="card-header-icons">
           <i class="fa-solid fa-display"></i>
-          <a href="#" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+          <a href="https://kodesales.netlify.app/" target="_blank" aria-label="Live Site"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
         <div class="card-image-box">
-          <img src="shelter-preview.png" alt="Shelter Project Preview">
+          <img src="kodesales-preview.png" alt="KodeSales Storefront Preview">
         </div>
-        <h3>Shelter</h3>
-        <p>Shelter is a comprehensive web application designed to streamline the process of property management and bookings for both property owners and renters.</p>
+        <h3>KodeSales</h3>
+        <p>A high-converting digital marketing storefront designed to showcase skill courses and capture leads through conversion-focused UI layout and Netlify deployment.</p>
         <div class="card-tags">
-          <span class="tag-blue">#Express & NodeJS</span>
           <span class="tag-purple">#ReactJs</span>
-          <span class="tag-green">#MongoDB</span>
-          <span class="tag-red">#Cloudinary</span>
+          <span class="tag-blue">#Netlify</span>
+          <span class="tag-green">#SalesFunnels</span>
+          <span class="tag-red">#UI/UX</span>
         </div>
       </div>
 
-      <!-- Card 2: NutriPlan -->
+      <!-- Card 2: To-Do App -->
       <div class="portfolio-card">
         <div class="card-header-icons">
           <i class="fa-solid fa-display"></i>
           <a href="#" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
         </div>
         <div class="card-image-box">
-          <img src="nutriplan-preview.png" alt="NutriPlan Project Preview">
+          <img src="todo-preview.png" alt="To-Do App Preview">
         </div>
-        <h3>NutriPlan</h3>
-        <p>Nutriplan is a web application designed to streamline and organize an individual's various meal plans seamlessly.</p>
+        <h3>Persistent Task Manager</h3>
+        <p>A fast, clean task management application built with vanilla JavaScript. Leverages browser localStorage so users can create, complete, and track daily tasks across sessions.</p>
         <div class="card-tags">
-          <span class="tag-blue">#Python</span>
-          <span class="tag-purple">#Flask</span>
-          <span class="tag-red">#Javascript</span>
+          <span class="tag-blue">#JavaScript</span>
+          <span class="tag-purple">#LocalStorage</span>
+          <span class="tag-red">#HTML5/CSS3</span>
         </div>
       </div>
 
-      <!-- Card 3: Simple Shell -->
+      <!-- Card 3: Animal Sounds App for Kids -->
       <div class="portfolio-card">
-        <div class="card-header-icons">
-          <i class="fa-solid fa-display"></i>
-          <a href="#" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
-        </div>
-        <div class="card-image-box">
-          <img src="shell-preview.png" alt="To-Do app preview">
-        </div>
-        <h3>TaskFlow / Persistent To-Do App</h3>
-        <p> A lightweight, high-performance productivity application built to help users manage daily tasks seamlessly. Utilizes JavaScript DOM manipulation for 
-        instant UI updates and the localStorage API to ensure state persistence across browser sessions without requiring a backend database.</p>
-        <div class="card-tags">
-          <span class="tag-blue">#C</span>
-          <span class="tag-red">#DSA</span>
-          <span class="tag-purple">#Linux</span>
-        </div>
-      </div>
-
-      <!-- Card 4: Monty Bytecode Interpreter -->
-      <div class="portfolio-card">
-        <div class="card-header-icons">
-          <i class="fa-solid fa-display"></i>
-          <a href="#" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
-        </div>
-        <div class="card-image-box">
-          <img src="monty-preview.png" alt="kodesales preview">
-        </div>
-        <h3>kodesales</h3>
-        <p>kodeSales is a high-converting digital storefront designed to showcase digital skill courses and products. Features a clean, responsive layout, seamless lead-capture funnels, and optimized front-end performance hosted on Netlify.</p>
-        <div class="card-tags">
-          <span class="tag-blue">#react js</span>
-          <span class="tag-red">#html/css</span>
-          <span class="tag-purple">#SalesFunnels</span>
-        </div>
-      </div>
- <div class="portfolio-card">
         <div class="card-header-icons">
           <i class="fa-solid fa-display"></i>
           <a href="#" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
@@ -262,6 +210,7 @@
           <span class="tag-blue">#WebDesign</span>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -313,5 +262,4 @@
   </div>
 </section>
 </body>
-<script src="script.js"></script>
 </html>
