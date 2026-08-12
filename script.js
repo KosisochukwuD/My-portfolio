@@ -144,32 +144,4 @@ document.addEventListener('DOMContentLoaded', () => {
   // =========================================================
   // 5. CONTACT FORM INTERACTIVE FEEDBACK
   // =========================================================
-  const contactForm = document.querySelector('.contact-form');
   
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const sendBtn = contactForm.querySelector('.btn-send');
-      
-      if (sendBtn) {
-        sendBtn.textContent = 'Sending...';
-        sendBtn.disabled = true;
-
-        setTimeout(() => {
-          sendBtn.textContent = 'Message Sent! ✓';
-          sendBtn.style.backgroundColor = '#22c55e';
-          sendBtn.style.color = '#ffffff';
-          contactForm.reset();
-
-          setTimeout(() => {
-            sendBtn.textContent = 'Send';
-            sendBtn.style.backgroundColor = '#ffffff';
-            sendBtn.style.color = '#111111';
-            sendBtn.disabled = false;
-          }, 3000);
-        }, 1200);
-      }
-    });
-  }
-
-});
